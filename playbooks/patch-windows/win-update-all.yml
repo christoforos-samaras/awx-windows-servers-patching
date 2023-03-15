@@ -13,9 +13,3 @@
         log_path: c:\temp\patching.txt
       register: update_result
       until: update_result.found_update_count == 0
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
