@@ -18,5 +18,5 @@
     - debug: var=result
 
     # reboot only if required
-    - win_reboot:
+    - win_reboot: yes
       when: result.reboot_required
